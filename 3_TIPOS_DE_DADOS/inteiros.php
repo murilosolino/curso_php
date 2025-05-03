@@ -22,6 +22,9 @@
     if (!is_int($s)){
         echo $s, " Nao eh um inteiro <br>";
     }
+
+    $n = $s;
+    echo $n
     
 
 ?>
