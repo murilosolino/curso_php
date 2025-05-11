@@ -18,4 +18,4 @@ print_r($diff); // retorna os valores que possui no array 1 e nao no array 2
 
 $arr3 = [4,6];
 $diff2 = array_diff($arr2, $arr1, $arr3); // compara a diferenca do array 2 com o array 1 e array 3;
-print_r($diff2); // 
+print_r($diff2); // retorna vazio por que econtrou semelhancas no array 3.
