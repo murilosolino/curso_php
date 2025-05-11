@@ -1,6 +1,6 @@
 <?php
 
-    //foraeach para array associativo
+    //foreach para array associativo
     $pessoa = [
         'nome' => 'murilo',
         'idade' => 21,
