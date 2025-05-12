@@ -1,0 +1,20 @@
+<?php
+
+interface Caractereisticas
+{
+    const nome = "Fulano";
+
+    public function falar();
+}
+
+class Humano implements Caractereisticas
+{
+    public function falar()
+    {
+        echo self::nome . " diz: Olá, mundo!";
+    }
+}
+
+
+$humano = new Humano();
+$humano->falar();

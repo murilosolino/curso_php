@@ -1,6 +1,6 @@
 <?php
 
-class Carro
+class Carro2
 {
     private $velocidade_maxima;
 
@@ -20,7 +20,7 @@ class Carro
     }
 }
 
-$car = new Carro();
+$car = new Carro2();
 
 $car->imprimeVelocidadeMaxia();
 $car->setVelocidadeMaxima(300);
